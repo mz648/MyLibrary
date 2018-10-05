@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="myTextView">
+
+        <attr name="font_name" format="enum">
+            <enum name="b_yekan" value="0"/>
+            <enum name="iran_sans" value="1"/>
+            <enum name="iran_yekan" value="2"/>
+        </attr>
+
+        <attr name="set_radius" format="boolean"/>
+        <attr name="radius" format="integer"/>
+        <attr name="radius_color" format="color"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="myImageView" >
+        <attr name="set_tint_color" format="boolean"/>
+        <attr name="tint_color" format="color"/>
+    </declare-styleable>
+</resources>
